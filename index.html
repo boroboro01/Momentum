@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/side.css">
+    <link rel="stylesheet" href="css/moon.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+    <title>Momentum</title>
+  </head>
+  <body>
+      <div id="container">
+          <form id="todo-form">
+              <input type="text" 
+                     placeholder="What is your plan?"
+                     autocomplete="off"
+                     id="todo"/>
+          </form>
+          <ul id="todo-list">
+          </ul>
+          <form id="login-form" class="hidden">
+              <input required
+                     maxlength=15 
+                     type="text" 
+                     placeholder="What is your name?"
+                     autocomplete="off"
+                     id="name"/>
+              <input type="submit" 
+                     value="Log in" 
+                     id="submit"/>
+          </form>
+          <div id="greeting-bg" class="hidden">
+              <h1 id="greeting" class="hidden"></h1>
+          </div>
+          <div id = "phase" class="hidden">
+              <span id="moon" class="hidden"></span>
+              <h1 id="moon-name" class="hidden"></h1>
+              <h2 id= "description" class="hidden"></h2>
+          </div>
+          <div id = time>
+              <h2>Today is..</h2>
+              <h4 id="calendar">0000.00.00</h4>
+              <h4 id="day-week"></h4>
+              <h3 id="clock">00:00:00</h3>
+          </div>
+          <div id="weather">
+              <span></span>
+              <span></span>
+          </div>
+          <div id="quote">
+              <span></span>
+              <br>
+              <span></span>
+          </div>
+          <div id="items">
+              <button id="play-button" class="hoverBtn">📻</button>
+              <div class="hoverClear">
+                  <button id="clear-button" class="hoverBtn">🌌</button>
+                  <p class="bubbleClear">You want clear?</p>    
+              </div>
+              <div class="hoverAlien">
+                  <button id="alien-button" class="hoverBtn">👽</button>
+                  <p id = "talk-alien" class="bubbleAlien"></p> 
+              </div>
+              <div class="hoverMemo">
+                  <button id="memo-button" class="hoverBtn">📝</button>
+                  <p class="bubbleMemo">
+                      <span class="title" >Radio List.</span><br>
+                      &nbsp;<br>&nbsp;<br>
+                      <a href="https://youtu.be/nHmgW1C8Mbk" class="linked">60 Seconds! Official Soundtrack</a><br>
+                      &nbsp;<br>
+                      <a href="https://youtu.be/b-2GV0T5Zpc" class="linked">
+                          Stephen Hawking speaks at MIT - Education and Technology Sept. 1994</a><br>
+                      &nbsp;<br>
+                      <a href="https://youtu.be/TtZiOt_pOSM" class="linked">
+                          K. 334 Mozart Divertimento No. 17 in D major, III Menuetto</a><br>
+                      &nbsp;<br>
+                      <a href="https://youtu.be/VMeXGE_a8Gg" class="linked">
+                          Louis CK Punches Dog In The Face To Save Her Life | CONAN on TBS</a><br>
+                      &nbsp;<br>
+                      <a href="https://youtu.be/hAtccVpFrsY" class="linked">
+                          Launch "Nuriho"...What's the possibility of success? / KBS 2021.10.12.</a><br>
+                      &nbsp;<br>
+                      <a href="https://youtu.be/SrazvevTn1s" class="linked">Super Girl</a><br>
+                      &nbsp;<br>&nbsp;<br> &nbsp;<br> &nbsp;<br>
+                      <span class="title" >About Moon.</span><br>
+                      &nbsp;<br> &nbsp;<br>
+                      <a href="https://d5.co.kr/" class="linked">Today's moon phase</a><br>
+                      &nbsp;<br>
+                      <a href="https://sea42star.tistory.com/7" class="linked">
+                          How to calculate the age of moon?</a><br>
+                      &nbsp;<br>
+                      <a href="https://www.almanac.com/astronomy/moon/calendar" class="linked">
+                       Moon Phase Calendar 2022 - The Old Farmer's Almanac</a><br>
+                      &nbsp;<br>
+                      <a href="https://en.wikipedia.org/wiki/Lunar_phase " class="linked">Lunar phase - Wikipedia</a><br>    
+                      &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
+                      Thankyou for enjoying my web site 🥰
+                  </p>   
+              </div>
+              <div class="hoverLight">
+                  <button id="light-button" class="hoverBtn">💡</button>
+                  <p id = "talk-light" class="bubbleLight">1. Login for saving date</p> 
+              </div>
+              <div class="hoverAstro">
+                  <button id="astronaut-button" class="hoverBtn">👨‍🚀</button>
+                  <p class="bubbleAstro">made by <br>ボロボロ(boroboro01)<br>&nbsp;<br>
+                  contact email : <br>boroboro011213@gmail.com</p>    
+              </div>
+              <div class="hoverTel">
+                  <button id="telescope-button" class="hoverBtn">🔭</button>
+                  <p class="bubbleTel">More...<br>&nbsp;<br>https://github.com/boroboro<br>01?tab=projects</p>    
+              </div>   
+          </div>
+          <script src="js/greeting.js"></script>
+          <script src="js/clock.js"></script>
+          <script src="js/quotes.js"></script>
+          <!-- <script src="js/background.js"></script> -->
+          <script src="js/todo.js"></script>
+          <script src="js/weather.js"></script>     
+          <script src="js/calendar.js"></script>
+          <script src="js/moon.js"></script>
+          <script src="js/audio.js"></script>
+          <script src="js/button.js"></script>
+          <script src="js/alien.js"></script>
+          <script src="js/bundle.js"></script>
+      </div>
+    </body>
+</html>
