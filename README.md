@@ -1,11 +1,12 @@
 # Momentum
-The website that has useful functions and cute icons - https://boroboro01.github.io/Momentum/
+## The website that has useful functions and cute interactive icons - https://boroboro01.github.io/Momentum/
 
-Hello, world! Welcome to the space!
+### Hello, world! Welcome to the space!
 
 It's a website that has a useful function, also has cute icons!
 
-You can log in to the website, only just type your name. and make your to-do list on the left side. It will help arrange your plan.
+You can log in to the website, only just type your name. This help web remeber you.
+And make your to-do list on the left side. It will help arrange your plan.
 
 Right side you can see the Date, Weather, and Some quotations.
 
@@ -17,6 +18,7 @@ Thank you read this and Have a nice day!
 
 -boroboro 2022-02-07
 
+p.s This project helped by nomadcoder challenge
 
 ![preview](https://user-images.githubusercontent.com/98679575/152803845-5e084276-324f-437e-85e9-4077ceb2652e.png)
 
