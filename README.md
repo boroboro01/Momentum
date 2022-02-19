@@ -18,11 +18,11 @@ Finally, Many icons wait to click. You can interact with just one click!
 
 Thank you read this and Have a nice day!
 
->-boroboro 2022-02-07
+-boroboro 2022-02-07
 
->>p.s This project helped by nomadcoder challenge
+>p.s This project helped by nomadcoder challenge
 
-======================================================================================================
+---
 02-19
 1. CSS detail modify
 2. Add random background image
