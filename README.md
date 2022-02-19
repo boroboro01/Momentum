@@ -22,5 +22,6 @@ Thank you read this and Have a nice day!
 
 >>p.s This project helped by nomadcoder challenge
 
-![preview](https://user-images.githubusercontent.com/98679575/152803845-5e084276-324f-437e-85e9-4077ceb2652e.png)
+![152803845-5e084276-324f-437e-85e9-4077ceb2652e](https://user-images.githubusercontent.com/98679575/154804531-84b0ad96-bc1a-4fa4-8f48-560df296f6b4.png)
+
 
