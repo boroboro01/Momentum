@@ -18,9 +18,9 @@ Finally, Many icons wait to click. You can interact with just one click!
 
 Thank you read this and Have a nice day!
 
--boroboro 2022-02-07
+>-boroboro 2022-02-07
 
-p.s This project helped by nomadcoder challenge
+>>p.s This project helped by nomadcoder challenge
 
 ![preview](https://user-images.githubusercontent.com/98679575/152803845-5e084276-324f-437e-85e9-4077ceb2652e.png)
 
